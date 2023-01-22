@@ -16,7 +16,7 @@ import Faq from "./pages/help/Faq";
 import Contact from "./pages/help/Contact";
 import NotFound from "./pages/NotFound";
 import CareersLayout from "./layouts/CareersLayout";
-import Careers from "./pages/careers/Careers";
+import Careers, { careersLoader } from "./pages/careers/Careers";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
