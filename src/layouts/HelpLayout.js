@@ -10,6 +10,11 @@ export default function HelpLayout() {
         libero reiciendis consectetur, dolorem molestias dolor culpa! Voluptates
         reprehenderit aliquid unde.
       </p>
+
+      <nav>
+        <NavLink to="faq">View the FAQ</NavLink>
+        <NavLink to="contact">Contact Us</NavLink>
+      </nav>
       <Outlet></Outlet>
     </div>
   );
